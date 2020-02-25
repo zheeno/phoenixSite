@@ -1,0 +1,9 @@
+RewriteEngine On
+
+RewriteRule ^tracking/([0-9a-zA-Z-]+)/([0-9a-zA-Z]+)/?$		tracking.php?trackingId=$1&action=$2		[NC,L]
+
+RewriteRule ^our-services/?$ services.php [NC,L]
+
+RewriteRule ^contact-us/?$ contact.php [NC,L]
+
+RewriteRule ^console/?$ console.php [NC,L]

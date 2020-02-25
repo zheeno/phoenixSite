@@ -1,0 +1,18 @@
+RewriteEngine On
+
+RewriteRule ^/?$ index.php
+
+RewriteRule ^account/([0-9a-zA-Z]+)/([0-9a-zA-Z]+) accounts.php?id=$1&token=$2&verifyToken
+
+RewriteRule ^transfers/([0-9a-zA-Z]+)/([0-9a-zA-Z]+) transfers.php?id=$1&token=$2&verifyToken
+
+RewriteRule ^history/([0-9a-zA-Z]+)/([0-9a-zA-Z]+) history.php?id=$1&token=$2&verifyToken
+
+RewriteRule ^signout/([0-9a-zA-Z]+) signOut.php?q=$1
+
+RewriteRule ^admin?$ admin.php
+RewriteRule ^admin/?$ admin.php
+
+RewriteRule ^console admin.php
+RewriteRule ^console/ admin.php
+

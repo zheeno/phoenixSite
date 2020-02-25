@@ -1,0 +1,12 @@
+[12-Feb-2018 02:13:42 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'phoenix_root'@'localhost' (using password: YES)' in /home/phoenixe/public_html/app/api/DB.php:6
+Stack trace:
+#0 /home/phoenixe/public_html/app/api/DB.php(6): PDO->__construct('mysql:host=loca...', 'phoenix_root', '@phoenix')
+#1 /home/phoenixe/public_html/app/api/index.php(4): DB->__construct('localhost', 'phoenixe_bank_D...', 'phoenix_root', '@phoenix')
+#2 {main}
+  thrown in /home/phoenixe/public_html/app/api/DB.php on line 6
+[12-Feb-2018 02:15:59 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'phoenix_root'@'localhost' (using password: YES)' in /home/phoenixe/public_html/app/api/DB.php:6
+Stack trace:
+#0 /home/phoenixe/public_html/app/api/DB.php(6): PDO->__construct('mysql:host=loca...', 'phoenix_root', '@phoenix')
+#1 /home/phoenixe/public_html/app/api/index.php(4): DB->__construct('localhost', 'phoenixe_bank_D...', 'phoenix_root', '@phoenix')
+#2 {main}
+  thrown in /home/phoenixe/public_html/app/api/DB.php on line 6

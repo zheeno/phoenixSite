@@ -1,0 +1,156 @@
+/* Your custom styles */
+body{
+    zoom:90%;
+}
+.navbar-brand img{
+    width:50px;
+}
+.right-align{
+	text-align: right !important;
+}
+.left-align{
+	text-align: left;
+}
+.center-align{
+	text-align: center;
+}
+.justify-align{
+	text-align: justify;
+}
+.shadow{
+	box-shadow: 1px 3px 2px 0px #BDBDBD;;
+}
+.no-shadow{
+	box-shadow: none !important;
+}
+.no-radius{
+	border-radius: 0px !important;
+}
+.nav-item-cus{
+	min-width: 100px
+}
+.text-shadow{
+	text-shadow: 3px 2px 0px #212c35;
+}
+.input-field{
+	height: 30px;
+	border:2px solid #EEE;
+	border-radius:3px;
+}
+.btn-top-nav{
+	margin:-1px;
+	border-radius:0px;
+	border:1px solid #FFF;
+	min-width:180px;
+	text-align:center;
+}
+.bold{
+	font-weight: bold;
+}
+.hidden{
+	display: none;
+}
+.bg-cus-dark{
+	background-color:#18252E;
+	color: #FFF;
+}
+.bg-greyish{
+	background-color: #39434b;
+}
+.bg-grey-light{
+	background-color: #f1f1f1;
+}
+.bg-deep-blue-grey{
+	background-color: #303e4e;
+}
+.bg-light-blue-grey{
+	background-color: #26476d;
+}
+.deep-blue-text{
+	color: #303e4e;
+}
+.deep-blue-border{
+	border: 1px solid #303e4e;
+}
+.gray-text{
+	color: #767676;
+}
+.btn-circle{
+	border-radius: 100px !important;
+	width: 65px;
+	height: 65px
+}
+.uppercase{
+	text-transform: uppercase !important;
+}
+.capitalize{
+	text-transform: capitalize !important;
+	font-size: 15px;
+}
+.inherit-h{
+	height: inherit !important;
+}
+.inherit-w{
+	width: inherit !important;
+}
+.no-border{
+	border-width: 0px !important
+}
+
+.pad-0{
+	padding: 0px !important;
+}
+.pad-top-100{
+	padding-top: 100px !important;
+}
+.pad-top-75{
+	padding-top: 75px !important;
+}
+.pad-top-50{
+	padding-top: 50px !important;
+}
+.pad-top-25{
+	padding-top: 25px !important;
+}
+.pad-bot-100{
+	padding-bottom: 100px !important;
+}
+.pad-bot-50{
+	padding-bottom: 50px !important;
+}
+.dropdown-block{
+    padding: 20px;
+    position: absolute;
+    background-color: #606a77;
+    top: 57px;
+    width: 41.25em;
+}
+.truncate {
+  width: inherit;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.side-menu-container{
+	width: 80px;
+	min-height: 100px;
+	right:0px;
+	bottom: 100px;
+	position: fixed
+}
+
+
+::selection {
+  background: #6abaed ; /* WebKit/Blink Browsers */
+  color: #FFF;
+}
+::-moz-selection {
+  background: #6abaed; /* Gecko Browsers */
+  color: #FFF
+}
+
+@media (max-width: 768px) {
+	.cus-visible-md{
+		display: none;
+	}
+}	
